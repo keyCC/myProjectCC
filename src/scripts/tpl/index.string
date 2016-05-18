@@ -1,0 +1,25 @@
+<div class="m-index">
+	<div class='m-index-container'>
+	
+	</div>
+	<footer>
+		<ul>
+			<li class='active' action-type='tap.switch' data-tag='home'>
+				<i class="yo-ico">&#xe62a;</i>
+				<b>主页</b>
+			</li>
+			<li action-type='tap.switch' data-tag='mall'>
+				<i class="yo-ico">&#xe600;</i>
+				<b>商城</b>
+			</li>
+			<li action-type='tap.switch' data-tag='shoppingCart'>
+				<i class="yo-ico">&#xe652;</i>
+				<b>购物车</b>
+			</li>
+			<li action-type='tap.switch' data-tag='service'>
+				<i class="yo-ico">&#xe64c;</i>
+				<b>服务</b>
+			</li>
+		</ul>
+	</footer>
+</div>

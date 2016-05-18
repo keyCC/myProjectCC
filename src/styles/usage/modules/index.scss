@@ -1,0 +1,50 @@
+// 首页样式： index.string
+.m-index {
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .m-index-container{
+      @include flex();
+      width: 100%;
+  }
+  footer {
+    width: 100%;
+    height: .46rem;
+    background: #fff;
+    @include border(1px 0 0 0, #d6d6d6);
+    ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li {
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        @include justify-content(center);
+
+        
+
+        &.active {
+          b, i {
+            color: $base-color;
+          }
+        }
+        b, i {
+          display: block;
+          color: #d6d6d6;
+          width: 100%;
+          text-align: center;
+        }
+        i {
+          font-size: .2rem;
+          line-height: .25rem;
+        }
+        b {
+          font-size: .12rem;
+        }
+      }
+    }
+  }
+}
